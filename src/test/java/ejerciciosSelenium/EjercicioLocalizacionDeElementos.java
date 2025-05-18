@@ -25,13 +25,16 @@ public class EjercicioLocalizacionDeElementos {
         WebElement nameSwitchToAlert = driver.findElement(By.name("enter-name"));
         WebElement nameElementDisplayed = driver.findElement(By.name("show-hide"));
 
+
         //Busqueda poor className
         List<WebElement> classNameRadioButtons = driver.findElements(By.className("radioButton"));
+
 
         //Busqueda por linkText o Partial Link Text
         WebElement linkText1 = driver.findElement(By.partialLinkText("QA Meetup "));
         WebElement linkText2 = driver.findElement(By.linkText("REST API"));
-        WebElement linkText3 = driver.findElement(By.linkText("BrokenLink"));
+        WebElement linkText3 = driver.findElement(By.linkText("Broken Link"));
+
 
     }
 }
