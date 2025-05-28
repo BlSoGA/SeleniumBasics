@@ -35,6 +35,7 @@ public class EjercicioLocalizacionDeElementos {
         WebElement linkText2 = driver.findElement(By.linkText("REST API"));
         WebElement linkText3 = driver.findElement(By.linkText("Broken Link"));
 
-
+        //css
+        //i
     }
 }
